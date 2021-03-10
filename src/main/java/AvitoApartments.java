@@ -10,9 +10,9 @@ public class AvitoApartments {
     int room;
     double square;
     int floor;
-    int maxfloor;
+    int maxFloor;
     int price;
     double distance;
-    int publicationTime;
+    long timestamp;
 }
 

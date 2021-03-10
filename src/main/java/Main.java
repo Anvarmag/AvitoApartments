@@ -7,21 +7,21 @@ public class Main {
         apartment1.room = 1;
         apartment1.square = 31.2;
         apartment1.floor = 9;
-        apartment1.maxfloor = 19;
+        apartment1.maxFloor = 19;
         apartment1.price = 4_046_000;
         apartment1.nameАgency = "Агентсво";
-        apartment1.publicationTime = 4;
+        apartment1.timestamp = 4;
         System.out.println(apartment1.image);
         System.out.println(apartment1.room);
         System.out.println(apartment1.square);
         System.out.println(apartment1.floor);
-        System.out.println(apartment1.maxfloor);
+        System.out.println(apartment1.maxFloor);
         System.out.println(apartment1.like);
         System.out.println(apartment1.price);
         System.out.println(apartment1.nameHC);
         System.out.println(apartment1.street);
         System.out.println(apartment1.nameАgency);
-        System.out.println(apartment1.publicationTime);
+        System.out.println(apartment1.timestamp);
 
         AvitoApartments apartment2 = new AvitoApartments();
         apartment2.id = 2;
@@ -32,16 +32,16 @@ public class Main {
         apartment2.room = 1;
         apartment2.square = 33;
         apartment2.floor = 17;
-        apartment2.maxfloor = 19;
+        apartment2.maxFloor = 19;
         apartment2.price = 4_350_000;
         apartment2.distance = 2.5;
-        apartment2.publicationTime = 28;
+        apartment2.timestamp = 28;
         apartment2.url = "Ключ";
         System.out.println(apartment2.image);
         System.out.println(apartment2.room);
         System.out.println(apartment2.square);
         System.out.println(apartment2.floor);
-        System.out.println(apartment2.maxfloor);
+        System.out.println(apartment2.maxFloor);
         System.out.println(apartment2.like);
         System.out.println(apartment2.url);
         System.out.println(apartment2.price);
@@ -50,7 +50,7 @@ public class Main {
         System.out.println(apartment2.nameMetro);
         System.out.println(apartment2.distance);
         System.out.println(apartment2.nameАgency);
-        System.out.println(apartment2.publicationTime);
+        System.out.println(apartment2.timestamp);
 
         AvitoApartments apartment3 = new AvitoApartments();
         apartment3.id = 3;
@@ -60,16 +60,16 @@ public class Main {
         apartment3.room = 3;
         apartment3.square = 132.1;
         apartment3.floor = 4;
-        apartment3.maxfloor = 5;
+        apartment3.maxFloor = 5;
         apartment3.price = 21_150_000;
         apartment3.distance = 1.1;
-        apartment3.publicationTime = 13;
+        apartment3.timestamp = 13;
         apartment3.url = "Ключ";
         System.out.println(apartment3.image);
         System.out.println(apartment3.room);
         System.out.println(apartment3.square);
         System.out.println(apartment3.floor);
-        System.out.println(apartment3.maxfloor);
+        System.out.println(apartment3.maxFloor);
         System.out.println(apartment3.like);
         System.out.println(apartment3.url);
         System.out.println(apartment3.price);
@@ -77,6 +77,6 @@ public class Main {
         System.out.println(apartment3.nameMetro);
         System.out.println(apartment3.distance);
         System.out.println(apartment3.nameАgency);
-        System.out.println(apartment3.publicationTime);
+        System.out.println(apartment3.timestamp);
     }
 }
